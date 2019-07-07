@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Developer Excuses API</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+	<h1 align="center">Developer Excuses API</h1>
+	<div class="container">
+		<p align="center">In this hectic world, developers are often faced with the problem of having to come up with excuses on the spot
+			to satitisfy clients or their employers. Developers should no longer have to worry about such mundane tasks but
+			use the Developer Excuses API for all their excuses requirements.</p>
+		<div class="row">
+			<div class="col">
+				<h3>Example Calls:</h3>
+				<ul>
+					<li>All <a href= "/api/v1/resources/excuses/all">/api/v1/resources/excuses/all</a></li>
+					<li>Id specific <a href = "/api/v1/resources/excuses?id=1">/api/v1/resources/excuses?id=1</a></li>
+					<li>Type specific calls ('Jobs or Client') <a href ="/api/v1/resources/excuses?type=Job">/api/v1/resources/excuses?type=Job</a> </li>
+				</ul>
+			</div>
+			<div class="col">
+				<h3>Example Excuse:</h3>
+				<p>{{ rand_excuse }}</p>
+			</div>
+		
+		</div>
+		<p align="center">&copy;Peter Brejza</p>
+	</div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+
+</html>
