@@ -1,1 +1,4 @@
 virt/
+.eb/
+.elasticbeanstalk/
+.vscode/
